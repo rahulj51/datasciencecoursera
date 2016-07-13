@@ -1,0 +1,65 @@
+cwd()
+x <- 1
+print(x)
+x
+msg <- 'hello'
+msg
+x <- 1:20
+x
+clear()
+help()
+x <- c(0.6,0.7)
+x
+x <- vector("numeric", length=10)
+x
+help vector
+help(vector)
+y <- c(1.8, "a")
+y
+x <- list("a",2,FALSE)
+x
+swirl()
+library('swirl')
+ls()
+rm(list=ls())
+swirl()
+bye()
+swirl()
+getwd()
+cwd()
+ls()
+getwd()
+ls()
+x <- 9
+ls()
+dir()
+?list.files
+list.files.args()
+list.files().args()
+args(list.files)
+old.dir <- getwd()
+dir.create("testdir")
+setwd("testdir")
+getwd()
+file.create("mytest.R")
+list.files()
+file.exists("mytest.R")
+file.info("mytest.R")
+args(file.rename)
+file.rename("mytest.R", "mytest2.R")
+file.copy("mytest2.R", "mytest3.R")
+file.path()
+file.path("mytest3.R")
+file.path("folder1", "folder2")
+?dir.create
+dir.create(file.path("testdir2/testdir3"), recursive=true)
+dir.create(file.path("testdir2/testdir3"), recursive=TRUE)
+dir.create(file.path("testdir2", "testdir3"), recursive=TRUE)
+?unlink
+unlink("testdir2", recursive = TRUE)
+setwd(old.dir)
+getwd()
+unlink("testdir", recursive= TRUE)
+bye()
+exit
+quit()
